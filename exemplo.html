@@ -1,11 +1,11 @@
 <html>
 
-<body> 
+<body style="font-size: 56px"> 
 
-
-<div id="texto">Texto dentro de html..</div>
+<!-- <div id="texto">Texto dentro de html..</div> -->
 
 <script> 
+    // CONDICOES / CONDITIONS
     /*if ( 1 + 2 == 2 ) { 
     	alert("Sim 1+1 é mesmo igual a 2.");
     } else {
@@ -13,18 +13,65 @@
     }*/
 
     // Interação / iteration / iterator
+	/*
     for (var i = 1; i <= 10; i++) {
-	if ( i == 5) {
+	    
+		if ( i == 5) {
         	document.getElementById("texto").style.backgroundColor = "yellow";
         }
-
         if (i == 7 ) { 
-        document.getElementById("texto").style.backgroundColor = "blue";
+            document.getElementById("texto").style.backgroundColor = "blue";
         }
+	    alert("Contar " + i );
+    }*/
+	
+	// Variables
+	var nomeDaPadaria = "Padaria Super Zé"; // String
+	if ( 1 + 13 == 11 ) {
+		nomeDaPadaria = "Zé Pães LTDA";
+	}
+	document.write("Nome da padaria: " + nomeDaPadaria + "<br/>");
+	
+	// Objetos em Javascript
+	var fornecedorFarinha1 = {
+		"nomeFornecedor":"Farinhas Sao Joao",
+		"precoMedio" : 1.99,
+		"qualidade" : 8
+	};
+	
+	var fornecedorFarinha2 = {
+		"nomeFornecedor":"Brasil Farinhas",
+		"precoMedio" : 2.00,
+		"qualidade" : 10
+	};
+	
+	//alert(fornecedor1);
+	//console.log(fornecedor1.qualidade);
+	
+	// Array
+	var fornecedores = [fornecedorFarinha1,fornecedorFarinha2];
+	//console.log(fornecedores);
+	
+	// Exibir lista de fornecedores do Seu Zé
+	for (var i =0; i < fornecedores.length ; i++) {
+	
+	     document.write("Nome fornecedor farinha: " + fornecedores[i].nomeFornecedor + "<br/>");
 
-	alert("Contar " + i );
-    }
+	}
+	
+	
+	
+	
+	
+	
+	
 </script>
+
+
+
+
+
+
 
 </body>
 
