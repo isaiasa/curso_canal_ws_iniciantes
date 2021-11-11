@@ -1,3 +1,6 @@
+Teste basico criado para alunos iniciantes em programação. exemplo de aula
+
+
 ALGORITMOS - Passos para a solução para um determinado tipo de problema.
 
 "Problema? Padaria do Zé:
